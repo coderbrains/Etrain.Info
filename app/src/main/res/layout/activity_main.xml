@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CLICK YOUR CHOICE"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/aw"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:layout_marginRight="10dp"
+            android:textDirection="firstStrong"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/splash"
+            android:clickable="true"></ImageButton>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-50dp"
+        android:text="SEARCH TRAINS                             RUNNING STATUS"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/search"
+            android:clickable="true">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="251dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/images"
+            android:clickable="true"></ImageButton>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="PNR STATUS                                     BOOK TICKET"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp"
+        android:layout_marginTop="-50dp"
+        android:textStyle="italic|bold"></TextView>
+
+
+</LinearLayout>
+
